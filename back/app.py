@@ -30,11 +30,5 @@ def decode_base64_image(data):
     image_bytes = io.BytesIO(image_data).read()
     image = cv2.imdecode(np.frombuffer(image_bytes, np.uint8), cv2.IMREAD_COLOR)
 
-@app.route('/feed', methods = ['POST'])
-def hello_world():  # put application's code here
-    data = request.get_json()
-    decode_base64_image(data.get("imageDataURL"))
-    return data
-
 if __name__ == '__main__':
     app.run()
