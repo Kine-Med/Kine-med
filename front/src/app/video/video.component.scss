@@ -3,3 +3,7 @@ video {
   border-top-right-radius: calc(var(--border-radius) - var(--border-offset));
   display: grid;
 }
+
+.video-container {
+  position: relative;
+}

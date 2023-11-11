@@ -1,0 +1,14 @@
+.rocket {
+   position: absolute;
+   top: 0;
+  animation: rocketAnimation 5s linear infinite;
+}
+
+@keyframes rocketAnimation {
+  0% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateX(-180%);
+  }
+}
