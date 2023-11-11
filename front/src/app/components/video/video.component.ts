@@ -21,13 +21,13 @@ export class VideoComponent {
     var canvasContext = canvas.getContext("2d");
     canvasContext!.drawImage(videoElement, 0, 0);
     const imageDataURL = canvas.toDataURL('image/jpeg');
-    /*fetch('http://localhost:5000/feed', {
+    fetch('http://localhost:5000/feed', {
       method: 'POST',
       body: JSON.stringify({ imageDataURL }), // You can adjust the data format as needed
       headers: {
         'Content-Type': 'application/json',
       },
-    });*/
+    });
   }
 
   async setupCamera() {
