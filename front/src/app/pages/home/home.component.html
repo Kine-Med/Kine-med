@@ -1,24 +1,29 @@
 <div class="class-home">
     <header>
+        <div class="rectangle">
         <div class="header-content">
-            <h2>Kiné Motion</h2>
-            <h2>logo</h2>
+            
+            <img style="border-radius: 70px; padding-right: 50px;" height=85px src="assets/Icon.png" alt="Exercice 1 ">
+            <h2>Bienvenue sur KinéMotion</h2>
         </div>
-    </header>
-    <div class="search-bar">
-        <img src="assets/searching-bar.png" alt="Rechercher">
     </div>
+    </header>
+    <!-- <div class="search-bar">
+        <img src="assets/searching-bar.png" alt="Rechercher">
+    </div> -->
 
     <section class="exercises">
         <h2>Exercices</h2>
-        <button class="exercise-box">
-            <a routerLink="/tutorial">
+        <button class="exercise-box" style="stroke-opacity: 0;">
+            <a routerLink="/tutorial" style="text-decoration: none;">
                 <img style="border-radius: 30px;" src="assets/squat.jpg" alt="Exercice 1">
+                <div class="exercise-text">Squats explosives</div>
             </a>
         </button>
         <button class="exercise-box">
-            <a routerLink="/tutorial">
-                <img style="border-radius: 30px;" src="assets/plane.jpg" alt="Exercice 2">
+            <a routerLink="/tutorial"  style="text-decoration: none;">
+                <img style="border-radius: 30px; stroke: none;" src="assets/plane.jpg" alt="Exercice 2">
+                <div class="exercise-text">Planche du pirate</div>
             </a>
         </button>
     </section>
