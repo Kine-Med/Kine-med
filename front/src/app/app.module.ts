@@ -9,6 +9,8 @@ import {HttpClientModule} from "@angular/common/http";
 import { BottombarComponent } from './bottombar/bottombar.component';
 import { RocketsComponent } from './rockets/rockets.component';
 import { ShapeComponent } from './shape/shape.component';
+import { ExSquatComponent } from './ex-squat/ex-squat.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -20,6 +22,8 @@ import { ShapeComponent } from './shape/shape.component';
     ShapeComponent,
     BottombarComponent,
     RocketsComponent,
+    ExSquatComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
