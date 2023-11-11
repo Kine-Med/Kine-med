@@ -7,5 +7,5 @@ import {Component, Input} from '@angular/core';
 })
 
 export class ShapeComponent {
-  @Input() shape: string = "assets/squatdown.png";
+  @Input() shape: string = "assets/squat_up";
 }

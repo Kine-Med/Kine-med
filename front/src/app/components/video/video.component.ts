@@ -9,7 +9,7 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 
 export class VideoComponent {
   constructor(private http: HttpClient) { }
-
+  currentShape: string = "assets/squat_up.png"
   ngOnInit(): void {
     this.setupCamera();
   }
