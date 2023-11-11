@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./stats.component.scss']
 })
 export class StatsComponent {
-
+  public progres: number = 0;
+  public max: number = 30;
+  ngOnInit(): void {
+    this.progres = 1;
+  }
 }
