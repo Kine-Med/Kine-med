@@ -10,17 +10,21 @@ $color-red: #f7452f;
     bottom: 5vh;
     left: 0;
     right: 0;
-    padding: 0.8rem 0;
+    padding: 4vh 0;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    border-radius: 2vh;
     z-index: 99;
-    box-shadow: 0 -2px 3px -2px $color-grey;
+    box-shadow: 0 -2px 3px -2px $color-dark;
     justify-content: space-around;
-
-    .active {
-      color: $color-red;
-    }
+    background-color: $color-white;
 
     img {
-      scale: 4;
+      scale: 3;
+    }
+
+    .active {
+      border: medium dashed var(--main-color);
     }
   }
 }
