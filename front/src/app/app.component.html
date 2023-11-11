@@ -1,9 +1,10 @@
-<div class="app container">
-  <div class="app-video">
-    <app-video></app-video>
-  </div>
-  <div class="app-stats">
-    <app-stats></app-stats>
-  </div>
+
+<div>
+
+  <router-outlet></router-outlet>
+ 
+
+<app-bottombar (buttonClick)="onButtonClick($event)"></app-bottombar>
+
 </div>
 

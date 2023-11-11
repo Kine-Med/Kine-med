@@ -6,8 +6,10 @@ import { AppComponent } from './app.component';
 import { VideoComponent } from './video/video.component';
 import { StatsComponent } from './stats/stats.component';
 import {HttpClientModule} from "@angular/common/http";
+import { BottombarComponent } from './bottombar/bottombar.component';
 import { RocketsComponent } from './rockets/rockets.component';
 import { ShapeComponent } from './shape/shape.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { ShapeComponent } from './shape/shape.component';
     VideoComponent,
     StatsComponent,
     RocketsComponent,
-    ShapeComponent
+    ShapeComponent,
+    BottombarComponent,
+    RocketsComponent,
   ],
   imports: [
     BrowserModule,
