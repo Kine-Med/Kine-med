@@ -1,3 +1,7 @@
+.profil {
+    width: 800px;
+}
+
 .exercises {
     padding: 30px;
     margin-top: 15px;
@@ -32,7 +36,7 @@
   .rectangle-title {
     font-weight: bold;
     color: #000000;
-    font: 400 45px Roboto, sans-serif;
+    font: 400 55px Roboto, sans-serif;
   }
   
   .rectangle-text {
@@ -48,5 +52,5 @@
     justify-content: center;
     margin-top: 20px;
     border-radius: 25px;
-    background-color: var(--third-color);
+    background-color: var(--fourth-color);
   }

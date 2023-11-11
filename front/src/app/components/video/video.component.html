@@ -1,6 +1,8 @@
+<div class="loading-overlay"  *ngIf="n!=0">{{n}}</div>
+<div class="loading-overlay"  *ngIf="bool2" style="padding-left: 43%;">GO</div>
 <div class="video-container">
   <video id="videoSource" playsinline autoplay></video>
-  <app-rockets></app-rockets>
-  <app-shape></app-shape>
+  <app-rockets *ngIf="bool"></app-rockets>
+  <app-shape  *ngIf="bool"></app-shape>
 </div>
 

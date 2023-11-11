@@ -11,7 +11,8 @@ import { ShapeComponent } from './components/shape/shape.component';
 import { ExSquatComponent } from './pages/ex-squat/ex-squat.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './footer/footer.component';
-import { TutorialComponent } from './tutorial/tutorial.component';
+import { TutorialComponent } from './pages/tutorial/tutorial.component';
+import { ProfilComponent } from './pages/profil/profil.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { TutorialComponent } from './tutorial/tutorial.component';
     ExSquatComponent,
     HomeComponent,
     FooterComponent,
-    TutorialComponent
+    TutorialComponent,
+    ProfilComponent,
   ],
   imports: [
     BrowserModule,
