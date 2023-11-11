@@ -7,5 +7,17 @@ import {Component, Input} from '@angular/core';
 })
 
 export class ShapeComponent {
-  @Input() shape: string = "assets/squat_up";
+  @Input() shape: string = "assets/squat_down.png";
+
+  constructor() {
+    setInterval(() => this.squatYourBootieBootie(), 1300);
+  }
+
+  squatYourBootieBootie() {
+    console.log(this.shape)
+    if (this.shape.includes("up"))
+      this.shape = "assets/squat_down.png"
+    else
+      this.shape = "assets/squat_up.png"
+  }
 }

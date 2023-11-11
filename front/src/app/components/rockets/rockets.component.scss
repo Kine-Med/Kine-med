@@ -1,14 +1,21 @@
 .rocket {
-   position: absolute;
-   top: 0;
+  position: absolute;
+  top: 80px;
   animation: rocketAnimation 5s linear infinite;
+  scale: 0.5;
 }
 
 @keyframes rocketAnimation {
   0% {
-    transform: translateX(150%);
+    left: -50px;
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  50% {
+    left: calc(var(--content-width) - 150px);
+    transform: rotate3d(0, 0, 1, 960deg);
   }
   100% {
-    transform: translateX(-180%);
+    left: -50px;
+    transform: rotate3d(0, 0, 1, 0deg);
   }
 }

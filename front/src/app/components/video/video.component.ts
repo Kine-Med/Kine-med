@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 
 @Component({
@@ -9,7 +9,6 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 
 export class VideoComponent {
   constructor(private http: HttpClient) { }
-  currentShape: string = "assets/squat_up.png"
   ngOnInit(): void {
     this.setupCamera();
   }
@@ -22,13 +21,13 @@ export class VideoComponent {
     var canvasContext = canvas.getContext("2d");
     canvasContext!.drawImage(videoElement, 0, 0);
     const imageDataURL = canvas.toDataURL('image/jpeg');
-    fetch('http://localhost:5000/feed', {
+    /*fetch('http://localhost:5000/feed', {
       method: 'POST',
       body: JSON.stringify({ imageDataURL }), // You can adjust the data format as needed
       headers: {
         'Content-Type': 'application/json',
       },
-    });
+    });*/
   }
 
   async setupCamera() {

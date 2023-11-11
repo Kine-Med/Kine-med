@@ -6,6 +6,8 @@ video {
   height: 80vh;
   object-fit: cover;
   width: var(--content-width);
+  //-webkit-transform: scaleX(-1);
+  //transform: scaleX(-1);
 }
 
 .video-container {
