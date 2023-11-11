@@ -1,0 +1,24 @@
+.bottom-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: #fff;
+  text-align: center;
+  border-radius: 0 0 40px 40px;
+  ;
+}
+
+button {
+  padding: 30px 20px;
+  border: none;
+  border-radius:5px;
+  margin-right:35px;
+  margin-left:35px;
+  cursor: pointer;
+}
+
+i {
+    margin-bottom: 5px;
+  }
