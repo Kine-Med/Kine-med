@@ -1,5 +1,5 @@
 video {
-  border-top-left-radius: calc(var(--border-radius) - 10px);
-  border-top-right-radius: calc(var(--border-radius) - 10px);
+  border-top-left-radius: calc(var(--border-radius) - var(--border-offset));
+  border-top-right-radius: calc(var(--border-radius) - var(--border-offset));
   display: grid;
 }

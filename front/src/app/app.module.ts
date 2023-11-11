@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { VideoComponent } from './video/video.component';
 import { StatsComponent } from './stats/stats.component';
 import {HttpClientModule} from "@angular/common/http";
+import { RocketsComponent } from './rockets/rockets.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VideoComponent,
-    StatsComponent
+    StatsComponent,
+    RocketsComponent
   ],
   imports: [
     BrowserModule,
