@@ -7,13 +7,15 @@ import { VideoComponent } from './video/video.component';
 import { StatsComponent } from './stats/stats.component';
 import {HttpClientModule} from "@angular/common/http";
 import { RocketsComponent } from './rockets/rockets.component';
+import { ShapeComponent } from './shape/shape.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VideoComponent,
     StatsComponent,
-    RocketsComponent
+    RocketsComponent,
+    ShapeComponent
   ],
   imports: [
     BrowserModule,
