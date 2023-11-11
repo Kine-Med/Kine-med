@@ -8,12 +8,38 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 })
 
 export class VideoComponent {
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) { setTimeout(() => { this.timer()}, 200)};
+
+  n: number = 3;
+  bool: boolean = false;
+  bool2: boolean = false;
+
   ngOnInit(): void {
     this.setupCamera();
+    console.log("VideoComponent");
+    console.error("VideoComponent");
   }
 
+  timer() {
+    setTimeout(() => {
+      this.n = 2;
+    }, 1000);
+    setTimeout(() => {
+      this.n = 1;
+    }, 2000);   setTimeout(() => {
+      this.n = 0;
+      this.bool2 = true;
+    }, 3000);
+    setTimeout(() => {
+      this.bool = true;
+      this.bool2 = false;
+    }, 4000);
+
+  }
+
+
   async sendFrameToServer() {
+    this.n = this.n + 1;
     const canvas = document.createElement('canvas');
     const videoElement: HTMLVideoElement = <HTMLVideoElement>document.getElementById("videoSource")
     canvas.width = videoElement.videoWidth;
@@ -29,6 +55,7 @@ export class VideoComponent {
       },
     });
   }
+
 
   async setupCamera() {
     try {

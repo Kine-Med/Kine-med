@@ -16,3 +16,17 @@ video {
   object-fit: cover;
   width: var(--content-width);
 }
+
+.loading-overlay {
+  position: fixed;
+  font: 400 200px "Chronofont", sans-serif;
+  color : #BDBDBD;
+  padding-left: 46%;
+  padding-top: 18%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Gray layer with some transparency */
+  z-index: 9999;
+}
