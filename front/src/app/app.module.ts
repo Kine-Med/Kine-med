@@ -3,14 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { VideoComponent } from './video/video.component';
-import { StatsComponent } from './stats/stats.component';
-import {HttpClientModule} from "@angular/common/http";
-import { BottombarComponent } from './bottombar/bottombar.component';
-import { RocketsComponent } from './rockets/rockets.component';
-import { ShapeComponent } from './shape/shape.component';
-import { ExSquatComponent } from './ex-squat/ex-squat.component';
-import { HomeComponent } from './home/home.component';
+import { VideoComponent } from './components/video/video.component';
+import { StatsComponent } from './components/stats/stats.component';
+import { HttpClientModule } from "@angular/common/http";
+import { RocketsComponent } from './components/rockets/rockets.component';
+import { ShapeComponent } from './components/shape/shape.component';
+import { ExSquatComponent } from './pages/ex-squat/ex-squat.component';
+import { HomeComponent } from './pages/home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -20,10 +20,10 @@ import { HomeComponent } from './home/home.component';
     StatsComponent,
     RocketsComponent,
     ShapeComponent,
-    BottombarComponent,
     RocketsComponent,
     ExSquatComponent,
     HomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

@@ -35,7 +35,7 @@ export class VideoComponent {
     try {
       var constraints = {
         audio: false,
-        video: { width: 500, height: 600 }
+        video: {}
       };
       const stream = await navigator.mediaDevices.getUserMedia(constraints);
       const videoElement: HTMLVideoElement = <HTMLVideoElement>document.getElementById("videoSource")

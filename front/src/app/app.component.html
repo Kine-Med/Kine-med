@@ -1,5 +1,9 @@
-<div>
-  <router-outlet></router-outlet>
-  <app-bottombar (buttonClick)="onButtonClick($event)"></app-bottombar>
+<div class="app">
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="footer">
+    <app-footer></app-footer>
+  </div>
 </div>
 

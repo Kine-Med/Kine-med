@@ -50,6 +50,7 @@ table {
   --border-radius: 50px;
   --border-size: 4px;
   --border-offset: 4px;
+  --content-width: 640px;
 }
 
 h1 {
@@ -60,12 +61,12 @@ h1 {
 .app-root {
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 
 .container {
   border-radius: var(--border-radius);
   border: var(--border-size) solid var(--secondary-color);
-  box-sizing: border-box;
 }
 
 html, body {
