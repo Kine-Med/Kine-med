@@ -5,7 +5,7 @@ import time
 thread = None
 
 class Camera:
-	def __init__(self,fps=20,video_source=0):
+	def __init__(self,fps=60,video_source=0):
 		self.fps = fps
 		self.video_source = video_source
 		self.camera = cv2.VideoCapture(self.video_source)

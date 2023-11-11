@@ -1,4 +1,4 @@
-video {
+img {
   border-top-left-radius: calc(var(--border-radius) - var(--border-offset));
   border-top-right-radius: calc(var(--border-radius) - var(--border-offset));
   display: grid;
@@ -6,8 +6,8 @@ video {
   height: 80vh;
   object-fit: cover;
   width: var(--content-width);
-  //-webkit-transform: scaleX(-1);
-  //transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .video-container {
