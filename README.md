@@ -24,6 +24,6 @@ python ./app.py
 npm install
 ng serve
 ```
-Ouvrez à <localhost:4200>, c'est prêt !!!
+Ouvrez à <https://localhost:4200>, c'est prêt !!!
 
 
