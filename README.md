@@ -1,5 +1,5 @@
 # KinéMotion - Read Me
-![alt text]([http://url/to/img.png](https://github.com/Kine-Med/Kine-med/blob/master/front/src/assets/Icon.png))
+![Logo](https://github.com/Kine-Med/Kine-med/blob/master/front/src/assets/Icon.png)
 
 ## Bienvenue dans KinéMotion : Votre Allié pour la Rééducation à Domicile !
 
