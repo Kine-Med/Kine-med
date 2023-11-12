@@ -12,4 +12,8 @@ class Game:
 			self.curgame = GAME_Gesture()
 
 	def runGame(self, frame):
+		if not self.curgame:
+			with open("back/images/not_found.jpeg", "rb") as f:
+				img = f.read()
+				return img
 		return self.curgame.run_game(frame)
