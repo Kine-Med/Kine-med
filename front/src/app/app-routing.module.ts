@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: 'tutorial/gesture', component: TuGestureComponent},
   { path: 'tutorial/knee', component: TuKneeComponent},
   { path: 'ex/knee', component: ExKneeComponent},
-  { path: 'ex/eat', component: ExEatComponent}
+  { path: 'ex/eat', component: ExEatComponent},
   { path: 'tutorial/fruit', component: TuFruitComponent},
   { path: 'ex/knee', component: ExKneeComponent}
 ];
