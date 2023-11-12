@@ -42,4 +42,7 @@ class Camera:
 				img = cv2.imencode('.png',self.frames[-1])[1].tobytes()
 			else:
 				img = self.frames[-1]
+		else:
+			with open("images/not_found.jpeg","rb") as f:
+				img = f.read()
 		return img
