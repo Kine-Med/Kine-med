@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-tutorial',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./tutorial.component.scss']
 })
 export class TutorialComponent {
-
+  @Input() name: string = "";
+  @Input() text: string = "";
+  @Input() img: string = "";
 }
