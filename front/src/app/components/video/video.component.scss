@@ -3,7 +3,7 @@ img {
   border-top-right-radius: calc(var(--border-radius) - var(--border-offset));
   display: grid;
   position: relative;
-  height: 80vh;
+  height: 86vh;
   object-fit: cover;
   width: var(--content-width);
   -webkit-transform: scaleX(-1);
@@ -11,13 +11,14 @@ img {
 }
 
 .video-container {
+  margin-top: 24px;
   position: relative;
-  height: 80vh;
+  height: 85vh;
   object-fit: cover;
   width: var(--content-width);
 }
 
-.loading-overlay {
+.loading-overlay {  
   position: fixed;
   font: 400 200px "Chronofont", sans-serif;
   color : #BDBDBD;

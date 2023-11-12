@@ -11,7 +11,6 @@ export class VideoComponent {
   constructor(private http: HttpClient) { setTimeout(() => { this.timer()}, 200)};
 
   n: number = 3;
-  bool: boolean = false;
   bool2: boolean = false;
 
   ngOnInit(): void {
@@ -30,9 +29,8 @@ export class VideoComponent {
       this.bool2 = true;
     }, 3000);
     setTimeout(() => {
-      this.bool = true;
       this.bool2 = false;
     }, 4000);
 
-  }
+  } 
 }
