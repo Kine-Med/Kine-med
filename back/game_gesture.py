@@ -46,7 +46,7 @@ class GAME_Gesture:
         y = random.randint(20, self.screen_height - 20)
         return x, y
 
-    def run_game(self,  frame):
+    def run_game(self, frame):
         frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
         results = self.hands.process(frame_rgb)

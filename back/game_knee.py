@@ -5,7 +5,7 @@ import random
 import mediapipe as mp
 
 class GAME_Knee:
-    def __init__(self, duration=60):
+    def __init__(self, duration=30):
         # Initialize MediaPipe Pose
         self.mp_pose = mp.solutions.pose
         self.pose = self.mp_pose.Pose()
@@ -67,7 +67,6 @@ class GAME_Knee:
             # Draw the pose landmarks in blue with larger circles
             cv2.circle(frame, left_knee, 20, (255, 0, 0), -1)
             cv2.circle(frame, right_knee, 20, (255, 0, 0), -1)
-        frame = cv2.flip(frame, 1)
         # Draw the score and remaining time
         cv2.putText(frame, f"Score: {self.score}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
         # Display the timer on the top-right corner
