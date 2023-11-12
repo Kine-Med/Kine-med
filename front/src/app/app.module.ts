@@ -17,6 +17,7 @@ import { CardComponent } from './components/card/card.component';
 import { TuGestureComponent } from './pages/tu-gesture/tu-gesture.component';
 import { ExKneeComponent } from './pages/ex-knee/ex-knee.component';
 import { TuKneeComponent } from './pages/tu-knee/tu-knee.component';
+import { ExEatComponent } from './pages/ex-eat/ex-eat.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { TuKneeComponent } from './pages/tu-knee/tu-knee.component';
     TuGestureComponent,
     ExKneeComponent,
     TuKneeComponent,
+    ExEatComponent,
   ],
   imports: [
     BrowserModule,
