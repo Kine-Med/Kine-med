@@ -1,6 +1,7 @@
 import cv2
 import threading
 import time
+from game import Game
 
 thread = None
 
@@ -13,6 +14,7 @@ class Camera:
 		self.max_frames = 5*self.fps
 		self.frames = []
 		self.isrunning = False
+		self.game = Game("GAME_GESTURE")
 	def run(self):
 		global thread
 		if thread is None:
@@ -24,6 +26,8 @@ class Camera:
 		dt = 1/self.fps
 		while self.isrunning:
 			v,im = self.camera.read()
+			im = cv2.flip(im, 1)
+			im = self.game.runGame(im)
 			if v:
 				if len(self.frames)==self.max_frames:
 					self.frames = self.frames[1:]
