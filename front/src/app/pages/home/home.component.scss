@@ -46,23 +46,8 @@
 }
 
 .exercises {
-    padding: 30px;
-    font-size: 35px;
-    display: grid;
-    stroke: none;
-}
-
-.exercise-box {
-    border-radius: 30px;
-    border : none;
-    margin-top: 20px;
-    text-align: center;
-    background-color: var(--third-color)
-}
-
-.exercise-text {
-    border-radius: 30px;
-    background-color: var(--fourth-color);
-    font: 400 25px Roboto, sans-serif;
-    color: #000000;
+  padding: 30px;
+  font-size: 35px;
+  display: grid;
+  stroke: none;
 }

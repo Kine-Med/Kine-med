@@ -11,6 +11,8 @@ camera.run()
 
 @app.route("/video_feed")
 def video_feed():
+	gameName = request.args.get('game')
+	camera.setGame(gameName)
 	return Response(gen(camera),
 		mimetype="multipart/x-mixed-replace; boundary=frame")
 

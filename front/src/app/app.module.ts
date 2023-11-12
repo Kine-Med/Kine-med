@@ -13,6 +13,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { TutorialComponent } from './pages/tutorial/tutorial.component';
 import { ProfilComponent } from './pages/profil/profil.component';
+import { CardComponent } from './components/card/card.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { ProfilComponent } from './pages/profil/profil.component';
     FooterComponent,
     TutorialComponent,
     ProfilComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
