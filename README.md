@@ -15,6 +15,7 @@ git clone git@github.com:Kine-Med/Kine-med.git
 ```
 - Dans le dossier back
 ```bash
+pip install -r requirement.txt
 python ./app.py
 ```
 
@@ -23,6 +24,6 @@ python ./app.py
 npm install
 ng serve
 ```
-
+Ouvrez à <https://localhost:4200>, c'est prêt !!!
 
 
