@@ -11,12 +11,12 @@ import { ShapeComponent } from './components/shape/shape.component';
 import { ExSquatComponent } from './pages/ex-squat/ex-squat.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './footer/footer.component';
-import { TutorialComponent } from './pages/tutorial/tutorial.component';
 import { ProfilComponent } from './pages/profil/profil.component';
 import { CardComponent } from './components/card/card.component';
 import { TuGestureComponent } from './pages/tu-gesture/tu-gesture.component';
 import { ExKneeComponent } from './pages/ex-knee/ex-knee.component';
 import { TuKneeComponent } from './pages/tu-knee/tu-knee.component';
+import { TuFruitComponent } from './pages/tu-fruit/tu-fruit.component';
 import { ExEatComponent } from './pages/ex-eat/ex-eat.component';
 
 
@@ -31,12 +31,12 @@ import { ExEatComponent } from './pages/ex-eat/ex-eat.component';
     ExSquatComponent,
     HomeComponent,
     FooterComponent,
-    TutorialComponent,
     ProfilComponent,
     CardComponent,
     TuGestureComponent,
     ExKneeComponent,
     TuKneeComponent,
+    TuFruitComponent,
     ExEatComponent,
   ],
   imports: [

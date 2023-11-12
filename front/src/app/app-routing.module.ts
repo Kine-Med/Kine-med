@@ -6,6 +6,7 @@ import { ProfilComponent } from './pages/profil/profil.component';
 import {TuGestureComponent} from "./pages/tu-gesture/tu-gesture.component";
 import { ExKneeComponent } from './pages/ex-knee/ex-knee.component';
 import {TuKneeComponent} from "./pages/tu-knee/tu-knee.component";
+import {TuFruitComponent} from "./pages/tu-fruit/tu-fruit.component";
 import { ExEatComponent } from './pages/ex-eat/ex-eat.component';
 
 const routes: Routes = [
@@ -16,7 +17,9 @@ const routes: Routes = [
   { path: 'tutorial/gesture', component: TuGestureComponent},
   { path: 'tutorial/knee', component: TuKneeComponent},
   { path: 'ex/knee', component: ExKneeComponent},
-  { path: 'ex/eat', component: ExEatComponent}
+  { path: 'ex/eat', component: ExEatComponent},
+  { path: 'tutorial/fruit', component: TuFruitComponent},
+  { path: 'ex/knee', component: ExKneeComponent}
 ];
 
 @NgModule({
