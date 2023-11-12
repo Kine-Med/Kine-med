@@ -1,0 +1,63 @@
+.exercises {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.class-tutorial {
+  margin-top: 100px
+}
+.rectangle-container {
+  width: 100%;
+  height: 33vh;
+  background-color: #ffffff;
+  border-radius: 20px; /* Adjust the radius as needed */
+  padding: 20px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 20px;
+  /* Add margin to center the rectangle vertically */
+}
+
+.rectangle-title-container {
+  width: 86%;
+  background-color: var(--third-color);
+  border-radius: 30px; /* Adjust the radius as needed */
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 12px;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.rectangle-title {
+  font-weight: bold;
+  color: #000000;
+  font: 400 45px Roboto, sans-serif;
+}
+
+.rectangle-text {
+  margin-top: 15px;
+  margin-left: 15px;
+  font: 400 25px Roboto, sans-serif;
+}
+
+.button-container {
+  display: flex;
+  padding: 20px;
+  height: 100%;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 25px;
+  background-color: var(--fourth-color);
+}
+.button-container:hover {
+  cursor: pointer;
+  background-color: var(--third-color);
+}
+
+img {
+  height: 350px;
+  object-fit: fill;
+}

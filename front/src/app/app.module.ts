@@ -14,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { TutorialComponent } from './pages/tutorial/tutorial.component';
 import { ProfilComponent } from './pages/profil/profil.component';
 import { CardComponent } from './components/card/card.component';
+import { TuGestureComponent } from './components/tu-gesture/tu-gesture.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { CardComponent } from './components/card/card.component';
     TutorialComponent,
     ProfilComponent,
     CardComponent,
+    TuGestureComponent,
   ],
   imports: [
     BrowserModule,

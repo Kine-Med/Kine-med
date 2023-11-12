@@ -6,12 +6,13 @@ import { ExSquatComponent } from "./pages/ex-squat/ex-squat.component";
 import {HomeComponent} from "./pages/home/home.component";
 import { TutorialComponent } from './pages/tutorial/tutorial.component';
 import { ProfilComponent } from './pages/profil/profil.component';
+import {TuGestureComponent} from "./components/tu-gesture/tu-gesture.component";
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'ex/squat', component: ExSquatComponent},
   { path: 'profil', component: ProfilComponent},
-  { path: 'tutorial', component: TutorialComponent}
+  { path: 'tutorial/gesture', component: TuGestureComponent}
 ];
 
 @NgModule({
