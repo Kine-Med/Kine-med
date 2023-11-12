@@ -1,13 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { VideoComponent } from './components/video/video.component';
-import { StatsComponent } from './components/stats/stats.component';
 import { ExSquatComponent } from "./pages/ex-squat/ex-squat.component";
 import {HomeComponent} from "./pages/home/home.component";
-import { TutorialComponent } from './pages/tutorial/tutorial.component';
 import { ProfilComponent } from './pages/profil/profil.component';
-import {TuGestureComponent} from "./components/tu-gesture/tu-gesture.component";
-import { ExFootComponent } from './pages/ex-foot/ex-foot.component';
+import {TuGestureComponent} from "./pages/tu-gesture/tu-gesture.component";
+import { ExKneeComponent } from './pages/ex-knee/ex-knee.component';
+import {TuKneeComponent} from "./pages/tu-knee/tu-knee.component";
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -15,8 +13,8 @@ const routes: Routes = [
   { path: 'ex/squat', component: ExSquatComponent},
   { path: 'profil', component: ProfilComponent},
   { path: 'tutorial/gesture', component: TuGestureComponent},
-  { path: 'tutorial', component: TutorialComponent},
-  { path: 'ex/foot', component: ExFootComponent}
+  { path: 'tutorial/knee', component: TuKneeComponent},
+  { path: 'ex/knee', component: ExKneeComponent}
 ];
 
 @NgModule({

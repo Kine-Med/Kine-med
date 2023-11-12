@@ -14,8 +14,9 @@ import { FooterComponent } from './footer/footer.component';
 import { TutorialComponent } from './pages/tutorial/tutorial.component';
 import { ProfilComponent } from './pages/profil/profil.component';
 import { CardComponent } from './components/card/card.component';
-import { TuGestureComponent } from './components/tu-gesture/tu-gesture.component';
-import { ExFootComponent } from './pages/ex-foot/ex-foot.component';
+import { TuGestureComponent } from './pages/tu-gesture/tu-gesture.component';
+import { ExKneeComponent } from './pages/ex-knee/ex-knee.component';
+import { TuKneeComponent } from './pages/tu-knee/tu-knee.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { ExFootComponent } from './pages/ex-foot/ex-foot.component';
     ProfilComponent,
     CardComponent,
     TuGestureComponent,
-    ExFootComponent,
+    ExKneeComponent,
+    TuKneeComponent,
   ],
   imports: [
     BrowserModule,
