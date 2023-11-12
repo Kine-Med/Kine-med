@@ -5,6 +5,7 @@ import random
 import numpy as np
 from game_gesture import GAME_Gesture
 from game_knee import GAME_Knee
+from game_eat import GAME_Eat
 
 class Game:
 	def __init__(self, name):
@@ -13,6 +14,8 @@ class Game:
 			self.curgame = GAME_Gesture()
 		if (self.name == "knee"):
 			self.curgame = GAME_Knee()
+		if (self.name == "eat"):
+			self.curgame = GAME_Eat()
 
 	def runGame(self, frame):
 		if not self.curgame:
