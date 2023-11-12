@@ -8,7 +8,7 @@
 
 .rectangle-container {
     width: 100%;
-    height: 30vh;
+    height: 33vh;
     background-color: #ffffff;
     border-radius: 20px; /* Adjust the radius as needed */
     padding: 20px;
@@ -17,7 +17,7 @@
     margin-top: 20px;
     /* Add margin to center the rectangle vertically */
   }
-  
+
   .rectangle-title-container {
     width: 86%;
     background-color: var(--third-color);
@@ -34,7 +34,7 @@
     color: #000000;
     font: 400 45px Roboto, sans-serif;
   }
-  
+
   .rectangle-text {
     margin-top: 15px;
     margin-left: 15px;
@@ -49,4 +49,8 @@
     margin-top: 20px;
     border-radius: 25px;
     background-color: var(--fourth-color);
+  }
+  .button-container:hover {
+    cursor: pointer;
+    background-color: var(--third-color);
   }
