@@ -13,17 +13,7 @@
 
     <section class="exercises">
         <h2>Exercices</h2>
-        <button class="exercise-box" style="stroke-opacity: 0;">
-            <a routerLink="/tutorial" style="text-decoration: none;">
-                <img style="border-radius: 30px;" src="assets/squat.jpg" alt="Exercice 1">
-                <div class="exercise-text">Squats explosifs</div>
-            </a>
-        </button>
-        <button class="exercise-box">
-            <a routerLink="/tutorial"  style="text-decoration: none;">
-                <img style="border-radius: 30px; stroke: none;" src="assets/plane.jpg" alt="Exercice 2">
-                <div class="exercise-text">Planche du</div>
-            </a>
-        </button>
+        <app-card [name]="'Squats explosifs'" [url]="'/tutorial'" [imageUrl]="'assets/squat.jpg'"></app-card>
+        <app-card [name]="'Planche du'" [url]="'/tutorial'" [imageUrl]="'assets/plane.jpg'"></app-card>
     </section>
 </div>
