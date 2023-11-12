@@ -30,12 +30,12 @@ class GAME_Eat:
         self.load_fruit_images()
         
     def load_fruit_images(self):
-        fruit_images_directory = './back/images/fruits/'
+        fruit_images_directory = 'images/fruits/'
         self.fruit_images = [f for f in os.listdir(fruit_images_directory) if os.path.isfile(os.path.join(fruit_images_directory, f))]
 
     def choose_random_fruit_image(self):
         random_fruit_image = random.choice(self.fruit_images)
-        fruit_image_path = os.path.join('./back/images/fruits/', random_fruit_image)
+        fruit_image_path = os.path.join('images/fruits/', random_fruit_image)
         return cv2.imread(fruit_image_path, cv2.IMREAD_UNCHANGED)
 
     def check_collision(self, circle1, circle2):
