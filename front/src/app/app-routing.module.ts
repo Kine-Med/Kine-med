@@ -6,6 +6,7 @@ import { ProfilComponent } from './pages/profil/profil.component';
 import {TuGestureComponent} from "./pages/tu-gesture/tu-gesture.component";
 import { ExKneeComponent } from './pages/ex-knee/ex-knee.component';
 import {TuKneeComponent} from "./pages/tu-knee/tu-knee.component";
+import {TuFruitComponent} from "./pages/tu-fruit/tu-fruit.component";
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'profil', component: ProfilComponent},
   { path: 'tutorial/gesture', component: TuGestureComponent},
   { path: 'tutorial/knee', component: TuKneeComponent},
+  { path: 'tutorial/fruit', component: TuFruitComponent},
   { path: 'ex/knee', component: ExKneeComponent}
 ];
 
