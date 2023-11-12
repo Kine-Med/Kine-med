@@ -17,6 +17,7 @@ import { TuGestureComponent } from './pages/tu-gesture/tu-gesture.component';
 import { ExKneeComponent } from './pages/ex-knee/ex-knee.component';
 import { TuKneeComponent } from './pages/tu-knee/tu-knee.component';
 import { TuFruitComponent } from './pages/tu-fruit/tu-fruit.component';
+import { ExEatComponent } from './pages/ex-eat/ex-eat.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { TuFruitComponent } from './pages/tu-fruit/tu-fruit.component';
     ExKneeComponent,
     TuKneeComponent,
     TuFruitComponent,
+    ExEatComponent,
   ],
   imports: [
     BrowserModule,
