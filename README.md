@@ -9,6 +9,20 @@ Bienvenue sur KinéMotion, l'application révolutionnaire conçue pour faciliter
 
 ### Installation
 
-Clone repo
+- Cloner le repo
 ```bash
-Git clone ```
+git clone git@github.com:Kine-Med/Kine-med.git
+```
+- Dans le dossier back
+```bash
+python ./app.py
+```
+
+- Dans le dossier front
+```bash
+npm install
+ng serve
+```
+
+
+
