@@ -8,7 +8,7 @@ from game_gesture import GAME_Gesture
 class Game:
 	def __init__(self, name):
 		self.name = name
-		if (self.name == "GAME_GESTURE"):
+		if (self.name == "gesture"):
 			self.curgame = GAME_Gesture()
 
 	def runGame(self, frame):

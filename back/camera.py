@@ -14,7 +14,11 @@ class Camera:
 		self.max_frames = 5*self.fps
 		self.frames = []
 		self.isrunning = False
-		self.game = Game("GAME_GESTURE")
+		self.game = Game("gesture")
+
+	def setGame(self, gameName):
+		self.game = Game(gameName)
+
 	def run(self):
 		global thread
 		if thread is None:
@@ -43,6 +47,6 @@ class Camera:
 			else:
 				img = self.frames[-1]
 		else:
-			with open("images/not_found.jpeg","rb") as f:
+			with open("back/images/not_found.jpeg","rb") as f:
 				img = f.read()
 		return img
