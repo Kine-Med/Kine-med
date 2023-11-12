@@ -32,5 +32,5 @@ export class VideoComponent {
       this.bool2 = false;
     }, 4000);
 
-  } 
+  }
 }
