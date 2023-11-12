@@ -1,8 +1,5 @@
 from flask import Flask, request, render_template, Response
-import numpy as np
-import base64
 from flask_cors import CORS
-import cv2, io
 from pathlib import Path
 from camera import Camera
 

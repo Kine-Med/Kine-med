@@ -3,18 +3,16 @@ $color-dark: #212121;
 $color-grey: #cccccc;
 $color-red: #f7452f;
 
-.footer {
+#footer {
   .bottom-nav {
     display: flex;
-    // position: fixed;
     bottom: 5vh;
     padding: 2vh 0;
-    // margin-left: 4vh;
-    // margin-right: 4vh;
-  border-bottom-left-radius: calc(var(--border-radius) - var(--border-offset));
-  border-bottom-right-radius: calc(var(--border-radius) - var(--border-offset));
+    margin-left: 4vh;
+    margin-right: 4vh;
+    border-bottom-left-radius: calc(var(--border-radius) - var(--border-offset));
+    border-bottom-right-radius: calc(var(--border-radius) - var(--border-offset));
     z-index: 99;
-    // box-shadow: 0 -2px 3px -2px $color-dark;
     justify-content: space-around;
     background-color: $color-white;
 
