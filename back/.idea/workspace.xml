@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b2445235-e614-4a19-aa6a-1a0b7a4f160a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_gesture.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_gesture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_knee.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_knee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_eat.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_eat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/pages/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/tu-fruit/tu-fruit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/pages/tu-fruit/tu-fruit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/tu-gesture/tu-gesture.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/pages/tu-gesture/tu-gesture.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/tu-knee/tu-knee.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/pages/tu-knee/tu-knee.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +124,7 @@
       <workItem from="1699738026235" duration="707000" />
       <workItem from="1699745100818" duration="234000" />
       <workItem from="1699745473474" duration="6581000" />
-      <workItem from="1699780522497" duration="1541000" />
+      <workItem from="1699780522497" duration="3729000" />
     </task>
     <servers />
   </component>
@@ -143,6 +146,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/back$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1699745777051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../KineMed-Bac" />
     <SUITE FILE_PATH="coverage/back$main.coverage" NAME="main Coverage Results" MODIFIED="1699745803716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../KineMed-Bac" />
-    <SUITE FILE_PATH="coverage/back$back.coverage" NAME="back Coverage Results" MODIFIED="1699781046219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/back$back.coverage" NAME="back Coverage Results" MODIFIED="1699786759179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
