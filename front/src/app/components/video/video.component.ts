@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Output} from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 
 @Component({
@@ -9,7 +9,7 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 
 export class VideoComponent {
   constructor(private http: HttpClient) { setTimeout(() => { this.timer()}, 200)};
-
+  @Input() gameName: string = '';
   n: number = 3;
   bool2: boolean = false;
 
@@ -32,5 +32,5 @@ export class VideoComponent {
       this.bool2 = false;
     }, 4000);
 
-  } 
+  }
 }

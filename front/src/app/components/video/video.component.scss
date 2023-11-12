@@ -6,8 +6,7 @@ img {
   height: 86vh;
   object-fit: cover;
   width: var(--content-width);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  object-fit: fill;
 }
 
 .video-container {
@@ -18,7 +17,7 @@ img {
   width: var(--content-width);
 }
 
-.loading-overlay {  
+.loading-overlay {
   position: fixed;
   font: 400 200px "Chronofont", sans-serif;
   color : #BDBDBD;
